@@ -80,6 +80,7 @@ body {
 
 .progress-bar div:nth-child(1) progress {
     width: 80vw;
+    max-width: 650px;
     height: 4px;
     box-shadow: -2px -2px 7px var(--light), 
                 2px 2px 7px var(--shadow);
@@ -98,6 +99,7 @@ body {
 
 .progress-bar div:nth-child(1) div {
     width: 80vw;
+    max-width: 650px;
     display: flex;
     justify-content: space-between;
     margin-block-start: 4px;
@@ -110,8 +112,13 @@ body {
 .buttons {
     place-self: center;
     width: 80%;
+    max-width: 650px;
     display: flex;
     justify-content: space-between;
+}
+
+.buttons img {
+    cursor: pointer;
 }
 
 .buttons img:nth-child(1) {
