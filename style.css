@@ -106,3 +106,40 @@ body {
 .progress-bar div:nth-child(1) div p {
     font-size: 1.2rem;
 }
+
+.buttons {
+    place-self: center;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons img:nth-child(1) {
+    width: 30px;
+    filter: drop-shadow(-2px -2px 4px var(--light))
+            drop-shadow(2px 2px 4px var(--shadow));
+}
+
+.buttons img:nth-child(2) {
+    width: 30px;
+    filter: drop-shadow(-2px -2px 4px var(--light))
+            drop-shadow(2px 2px 4px var(--shadow));
+}
+
+.buttons img:nth-child(3) {
+    width: 38px;
+    filter: drop-shadow(-2px -2px 4px var(--light))
+            drop-shadow(2px 2px 4px var(--shadow));
+}
+
+.buttons img:nth-child(4) {
+    width: 30px;
+    filter: drop-shadow(-2px -2px 4px var(--light))
+            drop-shadow(2px 2px 4px var(--shadow));
+}
+
+.buttons img:nth-child(5) {
+    width: 30px;
+    filter: drop-shadow(-2px -2px 4px var(--light))
+            drop-shadow(2px 2px 4px var(--shadow));
+}
