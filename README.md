@@ -4,8 +4,8 @@ This repository is about what I learned in the web design course with CSS Grid a
 
 ## Screenshot
 
-![](.images/desktop-design.jpeg)
-![](.images/mobil-design.jpeg)
+![](./images/desktop-design.jpeg)
+![](./images/mobil-design.jpeg)
 
 ## Built with 
 
