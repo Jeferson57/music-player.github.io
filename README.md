@@ -19,19 +19,19 @@ This repository is about what I learned in the web design course with CSS Grid a
 
 ### Design fundamentals for web pages
 
-1. Hierarchy: it refers to having elements larges than other elemnts, based on the relevance and importance than we want to give to each one of them. 
+1. **Hierarchy:** it refers to having elements larges than other elemnts, based on the relevance and importance than we want to give to each one of them. 
 
 ![](./images/hierarchy.jpg)
 
-2. Contrast: is defined as the relative difference in intensity between an elemnt. 
+2. **Contrast:** is defined as the relative difference in intensity between an elemnt. 
 
 ![](./images/contrast.jpg)
 
-3. Proximity: when we see several elements than resemble each other, we already know that they belong to a group of elements. This helps users to select thing faster and easier.
+3. **Proximity:** when we see several elements than resemble each other, we already know that they belong to a group of elements. This helps users to select thing faster and easier.
 
 ![](./images/proximity.jpg)
 
-3. Balance: it refers to visual weight of the elements. There are multiple parameters that affect the visual weight:
+3. **Balance:** it refers to visual weight of the elements. There are multiple parameters that affect the visual weight:
 
     - **Size:**
         - ![](./images/size.jpg)
@@ -40,7 +40,7 @@ This repository is about what I learned in the web design course with CSS Grid a
     - **Contrast:**
         - ![](./images/contrast-balance.jpg)
     - **Density:**
-        - [](./images/density.jpg)
+        - ![](./images/density.jpg)
 
 ### CSS layouts
 
@@ -65,10 +65,10 @@ This repository is about what I learned in the web design course with CSS Grid a
     flex: 0 1 150px;
 }
 ```
-- The flex shorthand stands for: 
-    -flex-grow
-    -flex-shrink
-    -flex-basus
+The flex shorthand stands for: 
+- flex-grow
+- flex-shrink
+- flex-basis
 
 3. **Sidebar Says:** This demo takes advantage of the minmax function for grid layouts. What we´re doing here is setting the minimum sidebar to be ``150px``, but on larger screens, letting that stretch out to ``25%``. The sidebar will always take up ``25%`` of its parent´s horizontal space untile that ``25%`` becomes smaller than ``150px``.
 
@@ -125,7 +125,7 @@ Another way to write this is by using the ``span`` keyword:
 }
 ```
 
-7. RAM (Repeat, Auto, MinMax): Combine some of the concepts you´ve already learned about to create a responsive layout with automatically-place and flexible children. Pretty neat. The key terms to remember here are ``repeat()``, ``auto-(fit|fill)``, and ``minmax()``, which you remember by the acronym RAM.
+7. **RAM (Repeat, Auto, MinMax):** Combine some of the concepts you´ve already learned about to create a responsive layout with automatically-place and flexible children. Pretty neat. The key terms to remember here are ``repeat()``, ``auto-(fit|fill)``, and ``minmax()``, which you remember by the acronym RAM.
 
 ```css
 .parent {
@@ -160,3 +160,13 @@ Another way to write this is by using the ``span`` keyword:
     aspect-ratio: 16 / 9;
 }
 ```
+
+### Use cases, differences and similarities between Flexbox and CSS Grid
+
+- **Flexbox:** is a method that can help distribute the space between items in an interface and improve alignment capabilities.
+
+Flexbox, however, is one-dimensional. That is, it allows us to align in a single direction.
+
+- **CSS Grid:** It is a layout system that allows auto-aligning elements in columns and rows.
+
+It is a two-dimensional system. That is, it allows us to align in two directions.
